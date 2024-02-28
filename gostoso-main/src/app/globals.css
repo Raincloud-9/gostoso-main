@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;700&family=Love+Ya+Like+A+Sister&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.map-container {
+	height: 100%;
+	width: 100%;
+}
+
+/* #svgGroup {
+	stroke-dasharray: 0;
+	animation: 3s fillSvg linear;
+}
+
+@keyframes fillSvg {
+	0% {
+		stroke-dashoffset: 4470;
+	}
+	100% {
+		stroke-dashoffset: 0;
+	}
+} */
